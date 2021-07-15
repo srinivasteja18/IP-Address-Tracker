@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+
+  <link rel="stylesheet" href="stylesheet.css">
+  
+  <title>IP Address Tracker</title>
+</head>
+<body>
+    <div class="container">
+      <div class="header">
+        <h1>IP Address Tracker</h1>
+        <div class="inputs">
+          <input class="inputSearch" type="text" placeholder="Select for any IP address or domain">
+          <input class="button" type="button">
+        </div>
+        <div class="result">
+          <div class="block">
+              <p class="name">IP Address</p>
+              <p class="ip location">76.87.89.65</p>
+          </div>
+          <div class="block">
+            <p class="name">Location</p>
+            <p class="place location">Hyderabad</p>
+          </div>
+          <div class="block">
+            <p class="name">Timezone</p>
+            <p class="zone location">+5:30</p>
+          </div>
+          <div class="block last-block">
+            <p class="name">ISP</p>
+            <p class="isp location">SpaceX</p>
+          </div>
+      </div>
+    </div>
+    <div id = "mapid" class="map-space"></div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+    <script src="javascript.js">
+    </script>
+</body>
+</html>
+
+
+
