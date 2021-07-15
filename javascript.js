@@ -21,8 +21,8 @@ const headers_option = {
 }
 
 const map = L.map('mapid', {
-    'center': [0,0],
-    'zoom': 0,
+    'center': [17.25349204320319, 78.89830030703999],
+    'zoom': 13,
     'layers': [
         L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
